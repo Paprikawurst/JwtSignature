@@ -7,4 +7,4 @@
 
 3. place keys under `C:\keys\`
 
-4. start program and copy token + public key onto `https://jwt.io/` with `RS512` as algorithm to verify signature
+4. start program and copy token + public key onto `https://jwt.io/` with `RS512` as algorithm (RSA using SHA-512 hash algorithm) to verify signature
