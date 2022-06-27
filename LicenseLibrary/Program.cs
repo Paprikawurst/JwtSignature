@@ -13,7 +13,7 @@ namespace LicenseLibrary
             string privateKey = File.ReadAllText(@"C:\keys\private.pem");
 
             var claims = new List<Claim>();
-            claims.Add(new Claim("Kardex", "Kardex"));
+            claims.Add(new Claim("test1", "test2"));
 
             var jwtManager = new JwtManager();
             var token = jwtManager.CreateToken(claims, privateKey);

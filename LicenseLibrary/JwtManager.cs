@@ -54,8 +54,5 @@ namespace LicenseLibrary
                 return Jose.JWT.Decode(token, rsa, Jose.JwsAlgorithm.RS512);
             }
         }
-
-
-
     }
 }
