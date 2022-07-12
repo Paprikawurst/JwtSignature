@@ -1,4 +1,4 @@
-# LicenseLibrary
+# LicenseLibrary - JWT Text Encoding and Decoding
 
 
 1. Create RSA Keypair on git bash  `openssl genrsa -out private.pem 2048` (adjust the rsa key length (here: 2048) as you wish)
